@@ -107,10 +107,6 @@ public class EditSubscriptionActivity extends AppCompatActivity {
                 comment = commentText.getText().toString();
                 monthlyCharge = Double.valueOf( monthlyChargeText.getText().toString() );
 
-//                if (initvalueString.isEmpty() || initvalueString.trim().isEmpty()) {
-//                    Toast.makeText(EditCounterActivity.this, "init value is required", Toast.LENGTH_SHORT).show();
-//                } else { }
-
                 IOUtility ioUtility = new IOUtility(EditSubscriptionActivity.this);
                 ioUtility.deleteFile(subscription);
                 Subscription newSubscription = new Subscription(name, dateStarted, monthlyCharge, comment);

@@ -85,16 +85,6 @@ public class AddSubscriptionActivity extends AppCompatActivity {
                 comment = commentText.getText().toString();
 
                 addSubscription(name, dateStarted, monthlyCharge, comment);
-
-//                if (name.isEmpty() || name.trim().isEmpty()) {
-//                    Toast.makeText(AddSubscriptionActivity.this, "Init value is required", Toast.LENGTH_SHORT).show();
-//                }
-//                else if (name.isEmpty() || name.trim().isEmpty()) {
-//                    Toast.makeText(AddSubscriptionActivity.this, " Name is required", Toast.LENGTH_SHORT).show();
-//                }
-//                else{
-//                    addSubscription(name, dateStarted, monthlyCharge, comment);
-//                }
             }
         });
 

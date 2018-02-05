@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">sfeng3-SubBook</string>
+    <string name="action_add_subscription">add</string>
+    <string name="action_view_subscription">view</string>
+    <string name="title_activity_add_subscription">AddSubscriptionActivity</string>
+    <string name="title_activity_edit_subscription">EditSubscriptionActivity</string>
+</resources>
